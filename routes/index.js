@@ -35,6 +35,7 @@ router.post("/contact", async (req, res) => {
 	const body = await fetch(verifyURL).then((res) => res.json());
 
 	// If not successful
+	console.log(body)
 	if (body.success !== undefined && !body.success) {
 		return res.json({
 			success: false,
@@ -63,6 +64,7 @@ router.post("/contact", async (req, res) => {
 
 		transporter.sendMail(mailOptions, function (err, info) {
 			if (err) {
+				console.log(err)
 				return res.json({ success: false });
 			}
 		});
