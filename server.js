@@ -21,11 +21,11 @@ app.use("/", require("./routes"));
 
 //404 handler
 app.use((req, res) => {
-	return res.redirect("/");
+  return res.redirect("/");
 });
 
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, () => {
-	console.log(`Server running on port: ${PORT}`);
+  console.log(`Server running on port: ${PORT}`);
 });

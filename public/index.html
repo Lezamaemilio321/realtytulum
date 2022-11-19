@@ -1,501 +1,522 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Invierte en lo  proyectos más prometedores de esta década en Tulum con nosotros. Deja de imaginar y toma acción, Ya!">
-		<link rel="stylesheet" href="css/main.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Invierte en lo  proyectos más prometedores de esta década en Tulum con nosotros. Deja de imaginar y toma acción, Ya!"
+    />
+    <link rel="stylesheet" href="css/main.css" />
 
-        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
-		<title>Linda Realty Tulum</title>
-	</head>
-	<body>
-		<header id="header">
-			<nav class="nav">
-				<a href="#home" class="logo">
-					<img src="/images/logo.png" alt="LINDA REALTY TULUM" />
-				</a>
+    <title>Linda Realty Tulum</title>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="nav">
+        <a href="#home" class="logo">
+          <img src="/images/logo.png" alt="LINDA REALTY TULUM" />
+        </a>
 
-				<div class="toggle" onclick="toggle()"></div>
+        <div class="toggle" onclick="toggle()"></div>
 
-				<ul class="nav-list">
-					<li>
-						<a href="#home" class="home">Inicio</a>
-					</li>
-					<li>
-						<a href="#contact" class="contact">Contactar</a>
-					</li>
-					<li>
-						<a href="#hect" class="hect">Hectáreas</a>
-					</li>
-					<li>
-						<a href="#lotes" class="lotes">Lotes</a>
-					</li>
-					<li>
-						<a href="#lofts" class="lofts">Lofts</a>
-					</li>
-				</ul>
+        <ul class="nav-list">
+          <li>
+            <a href="#home" class="home">Inicio</a>
+          </li>
+          <li>
+            <a href="#contact" class="contact">Contactar</a>
+          </li>
+          <li>
+            <a href="#fincas" class="fincas">Fincas</a>
+          </li>
+          <li>
+            <a href="#lotes" class="lotes">Lotes</a>
+          </li>
+          <li>
+            <a href="#hect" class="hect">Hectáreas</a>
+          </li>
+          <li>
+            <a href="#lofts" class="lofts">Lofts</a>
+          </li>
+        </ul>
 
-				<div class="dark-area"></div>
-			</nav>
-		</header>
-		<section id="home">
-			<img
-				src="images/background.png"
-				class="background-img"
-				alt="BACKGROUND"
-			/>
-			<div class="container">
-                <!-- <img src="/images/logo.png" alt="LINDA REALTY TULUM">
+        <div class="dark-area"></div>
+      </nav>
+    </header>
+    <section id="home">
+      <img
+        src="images/background.png"
+        class="background-img"
+        alt="BACKGROUND"
+      />
+      <div class="container">
+        <!-- <img src="/images/logo.png" alt="LINDA REALTY TULUM">
                 <div class="wrapper"> -->
-                    <h1>IMAGINA...</h1>
-                    <p>
-                        HABER INVERTIDO EN <b>CANCÚN</b> EN LOS 80's,<br />
-                        HABER INVERTIDO EN <b>PLAYA DEL CARMEN</b> EN LOS 2000,<br />
-                        TE PRESENTAMOS, <b>NUESTRA MAQUINA DEL TIEMPO.</b><br />
-                        DEJA DE IMAGINAR Y TOMA ACCIÓN, <b>TULUM.</b>
-                    </p>
-                    <div class="button-container">
-                        <a href="#contact">CONTÁCTANOS AHORA</a>
-                    </div>
-                <!-- </div> -->
-			</div>
-		</section>
-		<section id="contact">
-			<div class="background-gradient"></div>
-			<img
-				src="images/ruins.jpeg"
-				class="background-image-contact"
-				alt="RUINAS"
-			/>
-			<div class="form-container">
-				<h1>Contáctanos</h1>
+        <h1>IMAGINA...</h1>
+        <p>
+          HABER INVERTIDO EN <b>CANCÚN</b> EN LOS 80's,<br />
+          HABER INVERTIDO EN <b>PLAYA DEL CARMEN</b> EN LOS 2000,<br />
+          TE PRESENTAMOS, <b>NUESTRA MAQUINA DEL TIEMPO.</b><br />
+          DEJA DE IMAGINAR Y TOMA ACCIÓN, <b>TULUM.</b>
+        </p>
+        <div class="button-container">
+          <a href="#contact">CONTÁCTANOS AHORA</a>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
+    <section id="contact">
+      <div class="background-gradient"></div>
+      <img
+        src="images/ruins.jpeg"
+        class="background-image-contact"
+        alt="RUINAS"
+      />
+      <div class="form-container">
+        <h1>Contáctanos</h1>
 
-				<h4 class="error-msg">Perdón, hubo un error.</h4>
+        <h4 class="error-msg">Perdón, hubo un error.</h4>
 
-				<form id="form">
-					<label for="name">Tu nombre</label>
-					<input type="text" name="name" id="name" required />
+        <form id="form">
+          <label for="name">Tu nombre</label>
+          <input type="text" name="name" id="name" required />
 
-					<div class="number-email">
-						<div class="number-input">
-							<label for="number">Numero de Teléfono</label>
-							<input
-								type="text"
-								name="number"
-								id="number"
-								placeholder="opcional"
-							/>
-						</div>
+          <div class="number-email">
+            <div class="number-input">
+              <label for="number">Numero de Teléfono</label>
+              <input
+                type="text"
+                name="number"
+                id="number"
+                placeholder="opcional"
+              />
+            </div>
 
-						<div>
-							<label for="email">Correo Electrónico</label>
-							<input
-								type="email"
-								name="email"
-								id="name"
-								placeholder="opcional"
-							/>
-						</div>
-					</div>
-
-					<label for="message">Mensaje</label>
-					<textarea name="message" id="message" required></textarea>
-
-                    <div
-                        class="g-recaptcha"
-                        data-sitekey="6LcpOOgaAAAAAMiAP0tSqhhciWiCLayBYcdAnTTc"
-                        data-callback="onSubmit"
-                        data-size="invisible">
-                    </div>
-
-                    <h4 class="error-msg captcha-error"></h4>
-
-					<button class="form-button" type="submit">Enviar</button>
-				</form>
-
-                <a class="whatsapp" href="https://wa.me/529841428835">
-                    <img src="/images/whatsapp.png" alt="whatsapp">
-                    <h4>+52 (984) 142 8835</h4>
-                </a>
-			</div>
-		</section>
-
-		<section id="hect" class="info-section">
-			<div class="title">
-				<h1>HECTÁREAS</h1>
-				<h3>DESDE MXN <b>$650,000.</b>
-			</div>
-			<div class="info">
-				<p>
-					Contamos varias parcelas de 5 hectáreas cada una, dentro de
-					las cuales te ofrecemos "hábitats" de 1 hectárea.
-				</p>
-			</div>
-
-			<div>
-				<h1 class="location-title">Ubicación</h1>
-				<div class="info-2">
-					<div>
-						<img src="/images/location.png" alt="Ubicación" />
-					</div>
-					<div class="hect-list">
-						<ul>
-							<li>5 MINUTOS DE LA LAGUNA KAAN LUUM</li>
-							<li>15 MINUTOS DEL CENTRO DE TULUM</li>
-							<li>15 MINUTOS DE LA VELETA REGIÓN 15</li>
-							<li>1 HORA DE PLAYA DEL CARMEN</li>
-							<li>1 HORA DE COBÁ</li>
-							<li>1.5 HORAS DEL AEROPUERTO DE CANCÚN</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section id="lotes" class="info-section">
-			<div class="title">
-				<h1><b>LOTES</b> RESIDENCIALES</h1>
-				<h3>DESDE MXN <b>$800,000.</b>
-			</div>
-			<div class="info">
-				<p>
-					Este desarrollo cuenta con un área protegida de 50 hectáreas
-					dentro de las cuales se tendrá una
-					<b>UMA (Unidad de manejo ambiental)</b> dedicada a la
-					protección de aves de migración y un mariposario. Tambien
-					cuenta con <b>seguridad 24/7</b> y una amplia variedad de
-					amenidades como
-					<b>
-						albercas naturales, mariposario, spa, santuario de aves,
-						mirador y mucho más.
-					</b>
-				</p>
-				<img name="slide1" class="image-slide" alt="lotes" />
-			</div>
-
-			<div>
-                <h1 class="location-title">Ubicación</h1>
-				<div class="info-2">
-                    <ul>
-                        <li>• 5 MINUTOS DE LA LAGUNA KAAN LUUM</li>
-                        <li>• 15 MINUTOS DEL CENTRO DE TULUM</li>
-                        <li>• 15 MINUTOS DE LA VELETA REGIÓN 15</li>
-                        <li>• 1 HORA DE PLAYA DEL CARMEN</li>
-                        <li>• 1 HORA DE COBÁ</li>
-                        <li>• 1.5 HORAS DEL AEROPUERTO DE CANCÚN</li>
-                    </ul>
-                    <img src="/images/lots-location.png" alt="Ubicación" />
-				</div>
-			</div>
-		</section>
-
-		<section id="lofts" class="info-section">
-			<div class="title">
-				<h1><b>LOFTS</b> RESIDENCIALES</h1>
-				<h3>DESDE MXN <b>$1,970,000.</b>
-			</div>
-
-			<div class="loft-container">
-				<div class="info">
-					<p>
-						Este desarrollo situado estratégicamente, rodeado de los
-						cenotes más hermosos de la península, es un espacio 100%
-						ecológico, que logrará estar en armonía y respeto con
-						nuestros antepasados y sus tradiciones. La historia de
-						la vida Maya será vinculada al mundo moderno, pero sin
-						perder lo divino del disfrute de la naturaleza y las
-						amenidades excelentes que se han concebido para tamaña
-						inversión.
-					</p>
-				</div>
-
-				<div class="image-show">
-					<img name="slide2" class="image-slide" alt="lofts" />
-				</div>
-			</div>
-			<div class="loft-offer">
-				<div class="loft-collapsible">
-					<div>
-						<h1 class="offer-title">Ofrecemos:</h1>
-						<ul class="loft-list">
-							<li>• Terreno de 1,250 m²</li>
-							<li>
-								• Jungle loft de 34 m² con opción a crecimiento
-								a más de 200 m²
-							</li>
-							<li>• Alberca privada</li>
-							<li>• Área de asador</li>
-							<li>• Estacionamiento propio</li>
-							<li>• Amplio jardín</li>
-							<li>• Total privacidad</li>
-							<li>• Seguridad 24/7</li>
-							<li>• 100% Sustentable</li>
-							<li>• Múltiples amenidades dentro del complejo</li>
-							<li>
-								• Residencial para 240 personas en 50 hectáreas
-							</li>
-							<li>• Área comercial</li>
-							<li>
-								• A solo 5 minutos del centro enclavado en la
-								selva maya
-							</li>
-							<li>• Impacto positivo en el medio ambiente</li>
-						</ul>
-					</div>
-
-					<div>
-						<h1 class="location-title">Ubicación</h1>
-						<img
-							src="/images/loft-location.png"
-							class="loft-location"
-							alt="Ubicación"
-						/>
-					</div>
-				</div>
-			</div>
-		</section>
-
-        <footer id="footer">
-            <h3>
-                <small>Copyright © 2021 | Linda Realty Tulum.</small>
-            </h3>
             <div>
-                <h3>+52 (984) 142 8835</h3>
-                <h3>ceo@lindarealtytulum.com</h3>
-            </div> 
-        </footer>
+              <label for="email">Correo Electrónico</label>
+              <input
+                type="email"
+                name="email"
+                id="name"
+                placeholder="opcional"
+              />
+            </div>
+          </div>
 
-		<script>
-			const header = document.querySelector("#header");
-			const sections = document.querySelectorAll("section");
-			const listItem = header.querySelectorAll("a");
+          <label for="message">Mensaje</label>
+          <textarea name="message" id="message" required></textarea>
 
-			window.addEventListener("scroll", () => {
-				const windowPosition = window.scrollY > 0;
-				header.classList.toggle("scrolled", windowPosition);
+          <div
+            class="g-recaptcha"
+            data-sitekey="6LcpOOgaAAAAAMiAP0tSqhhciWiCLayBYcdAnTTc"
+            data-callback="onSubmit"
+            data-size="invisible"
+          ></div>
 
-				let current = "";
+          <h4 class="error-msg captcha-error"></h4>
 
-				sections.forEach((section) => {
-					const sectionTop = section.offsetTop;
-					const sectionHeight = section.clientHeight;
+          <button class="form-button" type="submit">Enviar</button>
+        </form>
 
-					if (pageYOffset >= sectionTop - sectionHeight / 3) {
-						current = section.getAttribute("id");
-					}
-				});
+        <a class="whatsapp" href="https://wa.me/529841428835">
+          <img src="/images/whatsapp.png" alt="whatsapp" />
+          <h4>+52 (984) 142 8835</h4>
+        </a>
+      </div>
+    </section>
 
-				listItem.forEach((li) => {
-					li.classList.remove("active");
-					if (li.classList.contains(current)) {
-						li.classList.add("active");
-					}
-				});
-			});
+    <section id="fincas" class="info-section">
+      <div class="title">
+        <h1><b>FINCAS</b></h1>
+        <h3>DESDE USD <b>$75,000.</b></h3>
+      </div>
+      <div class="info">
+        <p>
+          UN PROYECTO DISEÑADO PARA LOS AMANTES DE LA NATURALEZA. DESDE 1000 M2
+          EN UN ÁREA DE TIERRA DE 2 HECTÁREAS, ESTAS FINCAS ESTÁN UBICADAS EN UN
+          LUGAR TRANQUILO CON SEGURIDAD, RODEADAS POR MÁS DE 15 CENOTES Y
+          ACTIVIDADES COMO BUCEO EN CAVERNAS, NADO EN CENOTES Y CEREMONIAS
+          MAYAS, LA ZONA ES VISITADA TODO EL AÑO POR TURISMO NACIONAL E
+          INTERNACIONAL. <br /><br />
+          JUNTO CON TU FINCA SE TE INCLUIRÁ UN POZO DE AGUA Y SERVICIOS
+          FOTOVOLTAICOS (PANELES SOLARES). LISTOS PARA ESCRITURAR PAGOS DE
+          CONTADO. FINANCIAMIENTO EN 3 PAGOS. EL SIGUIENTE PASO PARA ADQUIRIR
+          UNA DE ESTAS HERMOSAS FINCAS ES UN RECORRIDO EN LA ZONA ¡CONTACTANOS
+          AHORA!
+        </p>
+        <img src="/images/fincas-location.png" alt="Ubicación" />
+      </div>
 
-            async function onSubmit(token) {
+      <div>
+        <h1 class="location-title">Ubicación</h1>
+        <div class="info-2">
+          <ul>
+            <li>• 5 MINUTOS DEL PARQUE XEL-HA</li>
+            <li>• 15 MINUTOS DE LAS RUINAS DE TULUM</li>
+            <li>• 15 MINUTOS DE AKUMAL</li>
+            <li>• 20 MINUTOS DEL PUEBLO DE TULUM</li>
+            <li>• 45 MINUTOS PLAYA DEL CARMEN</li>
+            <li>• 90 MINUTOS DEL AEROPUERTO DE CANCÚN</li>
+            <li>• 110 MINUTOS DE CANCÚN</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-                const button = document.querySelector(".form-button");
+    <section id="lotes" class="info-section">
+      <div class="title">
+        <h1><b>LOTES</b> RESIDENCIALES</h1>
+        <h3>DESDE MXN <b>$800,000.</b></h3>
+      </div>
+      <div class="info">
+        <p>
+          Este desarrollo cuenta con un área protegida de 50 hectáreas dentro de
+          las cuales se tendrá una
+          <b>UMA (Unidad de manejo ambiental)</b> dedicada a la protección de
+          aves de migración y un mariposario. Tambien cuenta con
+          <b>seguridad 24/7</b> y una amplia variedad de amenidades como
+          <b>
+            albercas naturales, mariposario, spa, santuario de aves, mirador y
+            mucho más.
+          </b>
+        </p>
+        <img name="slide1" class="image-slide" alt="lotes" />
+      </div>
 
-                const { name, email, number } =
-					form.getElementsByTagName("input");
-				const { message } = form.getElementsByTagName("textarea");
+      <div>
+        <h1 class="location-title">Ubicación</h1>
+        <div class="info-2">
+          <ul>
+            <li>• 5 MINUTOS DE LA LAGUNA KAAN LUUM</li>
+            <li>• 15 MINUTOS DEL CENTRO DE TULUM</li>
+            <li>• 15 MINUTOS DE LA VELETA REGIÓN 15</li>
+            <li>• 1 HORA DE PLAYA DEL CARMEN</li>
+            <li>• 1 HORA DE COBÁ</li>
+            <li>• 1.5 HORAS DEL AEROPUERTO DE CANCÚN</li>
+          </ul>
+          <img src="/images/lots-location.png" alt="Ubicación" />
+        </div>
+      </div>
+    </section>
 
+    <section id="hect" class="info-section">
+      <div class="title">
+        <h1>HECTÁREAS</h1>
+        <h3>DESDE MXN <b>$650,000.</b></h3>
+      </div>
+      <div class="info">
+        <p>
+          Contamos con varias parcelas de 5 hectáreas cada una, dentro de las
+          cuales te ofrecemos "hábitats" de 1 hectárea.
+        </p>
+      </div>
 
-                const res = await fetch("/contact", {
-                    method: "POST",
-                    headers: {
-                        Accept: "application/json, text/plain, */*",
-                        "Content-Type": "application/json",
-                    },
-                    body: JSON.stringify({
-                        captcha: token,
-                        name: name.value,
-                        email: email.value,
-                        number: number.value,
-                        message: message.value,
-                    }),
-                });
+      <div>
+        <h1 class="location-title">Ubicación</h1>
+        <div class="info-2">
+          <div>
+            <img src="/images/location.png" alt="Ubicación" />
+          </div>
+          <div class="hect-list">
+            <ul>
+              <li>5 MINUTOS DE LA LAGUNA KAAN LUUM</li>
+              <li>15 MINUTOS DEL CENTRO DE TULUM</li>
+              <li>15 MINUTOS DE LA VELETA REGIÓN 15</li>
+              <li>1 HORA DE PLAYA DEL CARMEN</li>
+              <li>1 HORA DE COBÁ</li>
+              <li>1.5 HORAS DEL AEROPUERTO DE CANCÚN</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
 
-                res.json().then((data) => {
-                    if (data.success) {
-                        document
-                            .querySelector(".error-msg")
-                            .classList.remove("visible");
+    <section id="lofts" class="info-section">
+      <div class="title">
+        <h1><b>LOFTS</b> RESIDENCIALES</h1>
+        <h3>DESDE MXN <b>$1,970,000.</b></h3>
+      </div>
 
-                        document
-                            .querySelector('.captcha-error')
-                            .classList.remove("visible");
+      <div class="loft-container">
+        <div class="info">
+          <p>
+            Este desarrollo situado estratégicamente, rodeado de los cenotes más
+            hermosos de la península, es un espacio 100% ecológico, que logrará
+            estar en armonía y respeto con nuestros antepasados y sus
+            tradiciones. La historia de la vida Maya será vinculada al mundo
+            moderno, pero sin perder lo divino del disfrute de la naturaleza y
+            las amenidades excelentes que se han concebido para tamaña
+            inversión.
+          </p>
+        </div>
 
+        <div class="image-show">
+          <img name="slide2" class="image-slide" alt="lofts" />
+        </div>
+      </div>
+      <div class="loft-offer">
+        <div class="loft-collapsible">
+          <div>
+            <h1 class="offer-title">Ofrecemos:</h1>
+            <ul class="loft-list">
+              <li>• Terreno de 1,250 m²</li>
+              <li>
+                • Jungle loft de 34 m² con opción a crecimiento a más de 200 m²
+              </li>
+              <li>• Alberca privada</li>
+              <li>• Área de asador</li>
+              <li>• Estacionamiento propio</li>
+              <li>• Amplio jardín</li>
+              <li>• Total privacidad</li>
+              <li>• Seguridad 24/7</li>
+              <li>• 100% Sustentable</li>
+              <li>• Múltiples amenidades dentro del complejo</li>
+              <li>• Residencial para 240 personas en 50 hectáreas</li>
+              <li>• Área comercial</li>
+              <li>• A solo 5 minutos del centro enclavado en la selva maya</li>
+              <li>• Impacto positivo en el medio ambiente</li>
+            </ul>
+          </div>
 
-                        button.setAttribute("type", "button");
-                        button.innerHTML = "Enviado!";
-                        button.disabled = true;
-                        button.classList.remove("loading");
-                        button.classList.add("done");
+          <div>
+            <h1 class="location-title">Ubicación</h1>
+            <img
+              src="/images/loft-location.png"
+              class="loft-location"
+              alt="Ubicación"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
 
-                        name.disabled = true;
-                        email.disabled = true;
-                        number.disabled = true;
-                        message.disabled = true;
+    <footer id="footer">
+      <h3>
+        <small>Copyright © 2021 | Linda Realty Tulum.</small>
+      </h3>
+      <div>
+        <h3>+52 (984) 142 8835</h3>
+        <h3>ceo@lindarealtytulum.com</h3>
+      </div>
+    </footer>
 
-                        form.removeEventListener("submit", submitted);
-                    } else {
-                        button.innerHTML = "Enviar";
-                        button.classList.remove("loading");
+    <script>
+      const header = document.querySelector("#header");
+      const sections = document.querySelectorAll("section");
+      const listItem = header.querySelectorAll("a");
 
-                        if (data.msg) {
-                            document.querySelector('.captcha-error').textContent = data.msg;
-                            document.querySelector('.captcha-error').classList.add("visible");
-                        } else {
-                            document
-                                .querySelector(".error-msg")
-                                .classList.add("visible");
-                        }
+      window.addEventListener("scroll", () => {
+        const windowPosition = window.scrollY > 0;
+        header.classList.toggle("scrolled", windowPosition);
 
-                        name.value = "";
-                        email.value = "";
-                        number.value = "";
-                        message.value = "";
-                    }
-                });
+        let current = "";
 
+        sections.forEach((section) => {
+          const sectionTop = section.offsetTop;
+          const sectionHeight = section.clientHeight;
+
+          if (pageYOffset >= sectionTop - sectionHeight / 3) {
+            current = section.getAttribute("id");
+          }
+        });
+
+        listItem.forEach((li) => {
+          li.classList.remove("active");
+          if (li.classList.contains(current)) {
+            li.classList.add("active");
+          }
+        });
+      });
+
+      async function onSubmit(token) {
+        const button = document.querySelector(".form-button");
+
+        const { name, email, number } = form.getElementsByTagName("input");
+        const { message } = form.getElementsByTagName("textarea");
+
+        const res = await fetch("/contact", {
+          method: "POST",
+          headers: {
+            Accept: "application/json, text/plain, */*",
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            captcha: token,
+            name: name.value,
+            email: email.value,
+            number: number.value,
+            message: message.value,
+          }),
+        });
+
+        res.json().then((data) => {
+          if (data.success) {
+            document.querySelector(".error-msg").classList.remove("visible");
+
+            document
+              .querySelector(".captcha-error")
+              .classList.remove("visible");
+
+            button.setAttribute("type", "button");
+            button.innerHTML = "Enviado!";
+            button.disabled = true;
+            button.classList.remove("loading");
+            button.classList.add("done");
+
+            name.disabled = true;
+            email.disabled = true;
+            number.disabled = true;
+            message.disabled = true;
+
+            form.removeEventListener("submit", submitted);
+          } else {
+            button.innerHTML = "Enviar";
+            button.classList.remove("loading");
+
+            if (data.msg) {
+              document.querySelector(".captcha-error").textContent = data.msg;
+              document.querySelector(".captcha-error").classList.add("visible");
+            } else {
+              document.querySelector(".error-msg").classList.add("visible");
             }
 
-			const form = document.getElementById("form");
+            name.value = "";
+            email.value = "";
+            number.value = "";
+            message.value = "";
+          }
+        });
+      }
 
-			function submitted(e) {
-				e.preventDefault();
+      const form = document.getElementById("form");
 
-				const button = document.querySelector(".form-button");
+      function submitted(e) {
+        e.preventDefault();
 
-				const { name, email, number } =
-					form.getElementsByTagName("input");
-				const { message } = form.getElementsByTagName("textarea");
+        const button = document.querySelector(".form-button");
 
+        const { name, email, number } = form.getElementsByTagName("input");
+        const { message } = form.getElementsByTagName("textarea");
 
-				if (name && button && message) {
-					try {
+        if (name && button && message) {
+          try {
+            button.innerHTML =
+              '<img src="/images/load-arrow.png" class="load-arrow">';
 
-						button.innerHTML =
-							'<img src="/images/load-arrow.png" class="load-arrow">';
+            button.classList.add("loading");
 
-						button.classList.add("loading");
+            grecaptcha.execute();
+          } catch (error) {
+            console.error(error);
 
-                        grecaptcha.execute();
+            document.querySelector(".error-msg").classList.add("visible");
 
-					} catch (error) {
-                        console.error(error);
+            name.value = "";
+            email.value = "";
+            number.value = "";
+            message.value = "";
+          }
+        }
+      }
 
-						document
-							.querySelector(".error-msg")
-							.classList.add("visible");
+      form.addEventListener("submit", submitted);
 
-						name.value = "";
-						email.value = "";
-						number.value = "";
-						message.value = "";
-					}
-				}
-			}
+      function toggle() {
+        const header = document.getElementById("header");
+        const items = header.getElementsByTagName("li");
+        const darkArea = document.querySelector(".dark-area");
+        const body = document.body;
 
-			form.addEventListener("submit", submitted);
+        header.classList.toggle("active");
+        darkArea.classList.toggle("active");
+        body.classList.toggle("no-scroll");
 
-			function toggle() {
-				const header = document.getElementById("header");
-				const items = header.getElementsByTagName("li");
-				const darkArea = document.querySelector(".dark-area");
-				const body = document.body;
+        darkArea.addEventListener("click", () => {
+          header.classList.remove("active");
+          darkArea.classList.remove("active");
+          body.classList.remove("no-scroll");
+        });
 
-				header.classList.toggle("active");
-				darkArea.classList.toggle("active");
-				body.classList.toggle("no-scroll");
+        for (let item of items) {
+          item.addEventListener("click", () => {
+            header.classList.remove("active");
+            darkArea.classList.remove("active");
+            body.classList.remove("no-scroll");
+          });
+        }
+      }
 
-				darkArea.addEventListener("click", () => {
-					header.classList.remove("active");
-					darkArea.classList.remove("active");
-					body.classList.remove("no-scroll");
-				});
+      let i = 0; // Start Point
+      let i2 = 0; // Start Point
+      let images1 = []; // Images Array
+      let images2 = []; // Images Array
+      let time = 3000; // Time Between Switch
 
-				for (let item of items) {
-					item.addEventListener("click", () => {
-						header.classList.remove("active");
-						darkArea.classList.remove("active");
-						body.classList.remove("no-scroll");
-					});
-				}
-			}
+      // Image List
+      images1[0] = "/images/16.png";
+      images1[1] = "/images/17.png";
+      images1[2] = "/images/18.png";
 
-			let i = 0; // Start Point
-			let i2 = 0; // Start Point
-			let images1 = []; // Images Array
-			let images2 = []; // Images Array
-			let time = 3000; // Time Between Switch
+      images2[0] = "/images/1.png";
+      images2[1] = "/images/2.png";
+      images2[2] = "/images/3.png";
+      images2[3] = "/images/4.png";
+      images2[4] = "/images/5.png";
+      images2[5] = "/images/6.png";
+      images2[6] = "/images/7.png";
+      images2[7] = "/images/8.png";
+      images2[8] = "/images/9.png";
+      images2[9] = "/images/10.png";
+      images2[10] = "/images/11.png";
+      images2[11] = "/images/12.png";
+      images2[12] = "/images/13.png";
+      images2[13] = "/images/14.png";
+      images2[14] = "/images/15.png";
 
-			// Image List
-			images1[0] = "/images/16.png";
-			images1[1] = "/images/17.png";
-			images1[2] = "/images/18.png";
+      // Change Image
+      function changeImg1() {
+        document.slide1.src = images1[i];
 
-			images2[0] = "/images/1.png";
-			images2[1] = "/images/2.png";
-			images2[2] = "/images/3.png";
-			images2[3] = "/images/4.png";
-			images2[4] = "/images/5.png";
-			images2[5] = "/images/6.png";
-			images2[6] = "/images/7.png";
-			images2[7] = "/images/8.png";
-			images2[8] = "/images/9.png";
-			images2[9] = "/images/10.png";
-			images2[10] = "/images/11.png";
-			images2[11] = "/images/12.png";
-			images2[12] = "/images/13.png";
-			images2[13] = "/images/14.png";
-			images2[14] = "/images/15.png";
+        // Check If Index Is Under Max
+        if (i < images1.length - 1) {
+          // Add 1 to Index
+          i++;
+        } else {
+          // Reset Back To O
+          i = 0;
+        }
 
-			// Change Image
-			function changeImg1() {
-				document.slide1.src = images1[i];
+        // Run function every x seconds
+        setTimeout("changeImg1()", time);
+      }
 
-				// Check If Index Is Under Max
-				if (i < images1.length - 1) {
-					// Add 1 to Index
-					i++;
-				} else {
-					// Reset Back To O
-					i = 0;
-				}
+      function changeImg2() {
+        document.slide2.src = images2[i2];
 
-				// Run function every x seconds
-				setTimeout("changeImg1()", time);
-			}
+        // Check If Index Is Under Max
+        if (i2 < images2.length - 1) {
+          // Add 1 to Index
+          i2++;
+        } else {
+          // Reset Back To O
+          i2 = 0;
+        }
 
-			function changeImg2() {
-				document.slide2.src = images2[i2];
+        // Run function every x seconds
+        setTimeout("changeImg2()", time);
+      }
 
-				// Check If Index Is Under Max
-				if (i2 < images2.length - 1) {
-					// Add 1 to Index
-					i2++;
-				} else {
-					// Reset Back To O
-					i2 = 0;
-				}
+      function startSlide() {
+        changeImg1();
+        changeImg2();
+      }
 
-				// Run function every x seconds
-				setTimeout("changeImg2()", time);
-			}
-
-			function startSlide() {
-				changeImg1();
-				changeImg2();
-			}
-
-			// Run function when page loads
-			window.onload = startSlide;
-		</script>
-	</body>
+      // Run function when page loads
+      window.onload = startSlide;
+    </script>
+  </body>
 </html>
